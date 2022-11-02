@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "ajdd-cbci-casc-labs-ops-controller"
 description: "CloudBees CI configuration bundle for the ajdd-cbci-casc-labs ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/ajdd-cbci-casc-labs/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
